@@ -14,6 +14,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
+    "build": "npx ts-node src/operations.ts",
     "test": "jest --coverage",
     "lint": "npx eslint ."
   },
