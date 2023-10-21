@@ -2,7 +2,7 @@ import { sum, sub } from './operations';
 
 describe("#sum", () => {
     it("should sum positive numbers properly", () => {
-        expect(sum(1, 1)).toBe(-2);
+        expect(sum(1, 1)).toBe(2);
     });
 
     it("should sum negative numbers properly", () => {
